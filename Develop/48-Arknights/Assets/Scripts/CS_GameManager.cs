@@ -15,7 +15,7 @@ public class CS_GameManager : MonoBehaviour {
 
     [SerializeField] GameObject myDirectionObject = null;
 
-    private CS_Player myCurrentPlayer;
+    public CS_Player myCurrentPlayer;
 
     private void Awake () {
         if (instance != null && instance != this) {
